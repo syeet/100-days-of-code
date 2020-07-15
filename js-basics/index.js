@@ -44,5 +44,22 @@ console.log(person.name);
 //Bracket notation
 person['name'] = 'sammy dong dong';
 console.log(person.name);
- 
 
+//arrays:
+//lengths are dynamic (they can change)
+//an array is an object
+//arrays = a database structure used to represent a list of items
+let selectedColors = ['red','blue'];
+selectedColors[2] = 'green';
+console.log(selectedColors.length);
+
+function greet (name) {
+    console.log('jello'  + name + '' + lastName);
+} 
+greet('touma','tanaka');
+
+//calculating a value
+function square (number) {
+    return number * number;
+}
+console.log(square(2)); 
