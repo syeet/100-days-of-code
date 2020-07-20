@@ -1,7 +1,9 @@
 html {
     font-size: 10px;
-    background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+    background: url(https://i.ytimg.com/vi/OhbeZ9QNHmQ/maxresdefault.jpg) bottom center;
     background-size: cover;
+    height: 811px;
+    width: 1504px;
   }
   
   body,html {
@@ -9,7 +11,14 @@ html {
     padding: 0;
     font-family: sans-serif;
   }
-  
+  .Toplol {
+    text-align:center;
+    font-size: 50px;
+    color:white;
+    font-family: monospace;
+    margin-top: 1in;
+
+  }
   .keys {
     display: flex;
     flex: 1;
