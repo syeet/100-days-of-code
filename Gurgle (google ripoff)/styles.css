@@ -1,5 +1,16 @@
+.bottomnav {
+    overflow: hidden;
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+  }
+
+
 .topbar {
    float:right;
+
 }
 
 .Logo {
@@ -13,48 +24,30 @@
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
+    width: 50%;
+    position: fixed;
+    left: 525px
 }
 
 .topnav {
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
+    width: 50%;
+    position: fixed;
+    right: 200px
 }
 
 .language {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
+    width: 50%;
+    position: absolute;
+    left: 525;
+    top: 35px
 }
 
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  /* Style the links inside the navigation bar */
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .navbar a.active {
-    background-color: gray;
-    color: white;
-  }
+.center {
+    margin-top: 100px
+}
